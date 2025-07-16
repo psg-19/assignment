@@ -10,7 +10,7 @@ dotenv.config();
   const app = express();
   // app.use(cors());
    app.use(cors({
-      origin: "https://assignment-rho-lake.vercel.app/",
+      origin: "*",
     //   origin: FRONTEND_URL,
    
       optionsSuccessStatus: 200,
